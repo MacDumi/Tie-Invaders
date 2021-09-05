@@ -24,6 +24,7 @@ std::string Assets::fontPath = "assets/fonts/font.ttf";
 std::string Assets::menuTieLargePath = "assets/graphics/menu_tie_0.png";
 std::string Assets::menuTieSmallPath = "assets/graphics/menu_tie_1.png";
 std::string Assets::macdumiProfilePath = "assets/graphics/macdumi.png";
+std::string Assets::adProfilePath = "assets/graphics/ad.png";
 
 std::string Assets::combatMusicPath = "assets/sounds/combat.ogg";
 std::string Assets::menuMusicPath = "assets/sounds/menu.ogg";

@@ -16,6 +16,7 @@ public:
     static std::string menuTieLargePath;
     static std::string menuTieSmallPath;
     static std::string macdumiProfilePath;
+    static std::string adProfilePath;
     static std::string combatMusicPath;
     static std::string menuMusicPath;
     static std::string gameOverMusicPath;

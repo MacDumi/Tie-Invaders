@@ -12,4 +12,7 @@ Space Invaders-like game with a Star Wars theme.
 </p>
 
 
+### Music
 
+Big thanks to Anis for composing the music for this game.
+You can find more of his work on <a href="https://soundcloud.com/anisdjellali">SoundCloud</a>.

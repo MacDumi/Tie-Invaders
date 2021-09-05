@@ -146,14 +146,22 @@ void Menu::drawAbout(int startY)
     startY = m_height - imageSize - 2 * padding;
     m_window->draw(image(Assets::macdumiProfilePath, m_width / 4,
                                                 startY, imageSize));
+    m_window->draw(image(Assets::adProfilePath, m_width / 1.9,
+                                                startY, imageSize));
     m_window->draw(text("Code", m_width / 4 + imageSize + padding,
+                        startY, size_4, sf::Color::Red));
+    m_window->draw(text("Music", m_width / 1.9 + imageSize + padding,
                         startY, size_4, sf::Color::Red));
     startY += size_4 + padding;
     m_window->draw(text("Macdumi", m_width / 4 + imageSize + padding,
                         startY, 0.7 * size_4, sf::Color::Yellow));
+    m_window->draw(text("Anis Djellali", m_width / 1.9 + imageSize + padding,
+                        startY, 0.7 * size_4, sf::Color::Yellow));
     startY += 0.7 * size_4 + padding;
     m_window->draw(text("www.dumitruduca.com", m_width / 4 + imageSize + padding,
-                        startY, size_footer, sf::Color::Yellow));
+                        startY, 0.9 * size_footer, sf::Color::Yellow));
+    m_window->draw(text("SoundCloud @anisdjellali", m_width / 1.9 + imageSize + padding,
+                        startY, 0.9 * size_footer, sf::Color::Yellow));
 }
 
 /* Draw the __About to quit__ dialog */
