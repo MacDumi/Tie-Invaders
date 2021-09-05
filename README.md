@@ -7,8 +7,8 @@ Space Invaders-like game with a Star Wars theme.
 
 
 <p align="center">
-<img src="/screenshots/Menu.png" alt="Menu Screen" width=450px>
-<img src="/screenshots/game.png" alt="Game screen" width=450px>
+<img src="/screenshots/Menu.png" alt="Menu Screen" width=600px>
+<img src="/screenshots/game.png" alt="Game screen" width=600px>
 </p>
 
 
